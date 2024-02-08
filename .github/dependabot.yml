@@ -1,0 +1,14 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    target-branch: "main"
+    versioning-strategy: increase
+    open-pull-requests-limit: 30
+    pull-request-branch-name:
+      separator: "-"
+    schedule:
+      day: "monday"
+      interval: "weekly"
+      time: "07:00"
+      timezone: "America/New_York"
